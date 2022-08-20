@@ -4,7 +4,7 @@ import React from 'react'
 const Container = (props) => {
   return (
     <>
-        <Box sx={{ maxWidth: '600px', height: '100vh', mr:'auto', ml: 'auto', backgroundColor:'white', position:'relative' }}>
+        <Box sx={{ maxWidth: '420px', height: '100%', mr:'auto', ml: 'auto', backgroundColor:'white', position:'relative' }}>
             {props.children}
         </Box>
     </>

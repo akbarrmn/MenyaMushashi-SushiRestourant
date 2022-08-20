@@ -3,15 +3,15 @@ import { createTheme } from "@mui/material";
 export const Theme = createTheme({
     breakpoints:{
       values:{
-        xs:0,
-        sm:600,
-        md:900,
+        xs:300,
+        sm:400,
+        md:600,
         lg:1200,
         xl:1440
       }
     },
     typography:{
-      fontFamily:"Poppins, sans-serif",
+      fontFamily:"Inter, sans-serif",
       button:{
         textTransform:'none'
       }
